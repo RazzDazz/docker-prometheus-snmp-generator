@@ -15,6 +15,7 @@ RUN apt-get -yqq update && \
     apt-get -yqq upgrade && \
     apt-get -yqq install build-essential && \
     apt-get -yqq install libsnmp-dev && \
+    apt-get -yqq install golang
     rm -rf /var/lib/apt/lists/*
 
 #
