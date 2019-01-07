@@ -14,6 +14,7 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get -yqq update && \
     apt-get -yqq upgrade && \
     apt-get -yqq install build-essential && \
+    apt-get -yqq install curl && \
     apt-get -yqq install libsnmp-dev && \
     apt-get -yqq install git && \
     apt-get -yqq install golang && \
