@@ -18,6 +18,7 @@ RUN apt-get -yqq update && \
     apt-get -yqq install libsnmp-dev && \
     apt-get -yqq install git && \
     apt-get -yqq install golang && \
+    apt-get -yqq install unzip && \
     rm -rf /var/lib/apt/lists/*
 
 #
